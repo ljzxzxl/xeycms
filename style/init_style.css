@@ -1,0 +1,103 @@
+
+.subcat {
+margin-left:1em;
+}
+
+
+
+
+
+
+
+
+
+
+#main input[type=button] {
+border:1px solid #ccc;
+color:#000;
+font-size:.8em;
+line-height:1.5em;
+cursor:pointer;
+display:block;
+float:left;
+background:#f9f6f2;
+margin:0 .1em;
+padding:.2em .8em;
+}
+
+.strong {
+font-weight:700;
+}
+
+.em {
+font-style:italic;
+}
+
+.underline {
+text-decoration:underline;
+}
+
+.del {
+text-decoration:line-through;
+}
+
+fieldset {
+border:1px solid #E4DF94;
+color:#000;
+background:#FFFBC0;
+margin:0 0 8px;
+padding:10px 8px;
+}
+
+/* Patch #19 - 1.7.1 - new panel division */
+.adminpanel, .innerpanel { margin: 0 0 8px 0; color: #000; }
+.adminpanel { padding: 10px 8px 10px 15px; border: 1px solid #ccc; background: #FFFBC0; }
+.innerpanel { padding: 5px 8px 0px 8px; border: 1px solid #e0e0e0; background: #FFFBC0; }
+.admintitle { font: bold 14px Arial; color: #a62300; margin-left: 0px; margin-bottom: 8px; }
+.admintitle a { font-weight: normal; }
+.message { margin-bottom: 8px; }
+.warning, .message { text-align: center; color: #000; border: 1px solid #ccc; background: #FFFBC0; padding: 10px 8px 0px 8px; }
+.spacelink { margin: 0px 0px 6px 0px; }
+
+textarea {
+width:97%;
+height:20em;
+padding:3px;
+}
+
+.comment {
+color:gray;
+border-top:1px solid #ccc;
+background:#F5F6F6;
+margin:0 0 10px;
+padding:10px;
+}
+
+.commentsbox {
+color:gray;
+margin:0 0 10px;
+padding:10px;
+}
+
+
+.clearer {
+clear:both;
+margin:0 auto;
+padding:1px 0 0;
+}
+
+/* for expandable title links on archive and sitemap pages */
+.drop_title a {
+font:bold 12px Arial;
+}
+
+.droplist_div {
+width:95%;
+border-bottom:1px solid #ccc;
+padding:4px 0;
+}
+
+.subcatlist_div {
+width:95%;
+padding:0 0 0 15px;
+}
